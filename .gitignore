@@ -4,3 +4,4 @@ secrets.toml
 .venv/
 __pycache__/
 *.pyc
+major_project.env
