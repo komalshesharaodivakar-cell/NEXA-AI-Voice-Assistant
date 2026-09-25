@@ -1,0 +1,11 @@
+{
+    "timestamp": "20260911_140222",
+    "prompt": "A beautiful futuristic city at night, cinematic,  lighting, highly detailed",
+    "style": "Realistic",
+    "negative_prompt": "",
+    "inference_steps": 4,
+    "guidance_scale": 7.5,
+    "seed": 42,
+    "model": "black-forest-labs/FLUX.1-schnell",
+    "image_file": "generated_20260911_140222.png"
+}
