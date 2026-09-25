@@ -1,19 +1,21 @@
-# 🎙️ AI Voice Assistant — That Thinks + Talks
+# 🎙️ NEXA – AI Voice Assistant
 
-## 📌 Project Overview
+> **An AI Voice Assistant that Thinks + Talks.**
 
-An AI Voice Assistant that accepts both voice and text input, processes the user's query using an AI language model, and responds with text and speech.
+NEXA is an interactive AI voice assistant that accepts **voice and text input**, processes user queries using an AI language model, and responds through **text and speech**.
 
 ## ✨ Features
 
-- 🎤 Voice input
+- 🎙️ Voice input using Speech Recognition
 - ⌨️ Text input
-- 🤖 AI-powered responses using Ollama
+- 🧠 AI-powered responses using Ollama
 - 🔊 Text-to-speech responses
-- 🧠 Conversation memory
+- 💬 Conversation memory
+- 🎵 Music control
+- 🔊 Volume control
+- 🌐 Streamlit web interface
 - ⚡ Short and clear responses
 - 🛡️ Basic error handling
-- 🌐 Streamlit web interface
 
 ## 🛠️ Technologies Used
 
@@ -26,44 +28,15 @@ An AI Voice Assistant that accepts both voice and text input, processes the user
 
 ## 🔄 Working Flow
 
+```text
 User speaks or types a question
-↓
-Speech is converted to text (for voice input)
-↓
-The query is sent to the AI model
-↓
-The AI generates a response
-↓
-The response is displayed on screen
-↓
-The response is converted to speech
-
-## 🧠 Conversation Memory
-
-The assistant maintains the conversation context so it can understand follow-up questions.
-
-Example:
-
-User: What is Python?
-
-Assistant: Python is a programming language...
-
-User: Where is it used?
-
-Assistant: It is used in web development, AI, automation, and more.
-
-## 🎯 Project Objective
-
-To develop a simple and interactive AI assistant that can understand user queries through voice or text and provide intelligent spoken responses.
-
-## 🚀 Future Enhancements
-
-- 🎵 Music control
-- 🔊 Improved voice quality
-- 🌍 Multiple language support
-- 🖥️ More assistant commands
-- 📱 Mobile support
-
-## 👨‍💻 Project Status
-
-Core voice, text, AI response, speech output, and conversation memory features have been implemented and tested.
+              ↓
+      Voice → Text conversion
+              ↓
+       AI processes the query
+              ↓
+        AI generates response
+              ↓
+      Response displayed on screen
+              ↓
+       Response → Speech
